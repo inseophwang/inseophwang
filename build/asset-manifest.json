@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/build/static/css/main.9755adc9.chunk.css",
+    "main.js": "/build/static/js/main.dfff0d25.chunk.js",
+    "main.js.map": "/build/static/js/main.dfff0d25.chunk.js.map",
+    "runtime~main.js": "/build/static/js/runtime~main.840d789f.js",
+    "runtime~main.js.map": "/build/static/js/runtime~main.840d789f.js.map",
+    "static/js/2.db609bdc.chunk.js": "/build/static/js/2.db609bdc.chunk.js",
+    "static/js/2.db609bdc.chunk.js.map": "/build/static/js/2.db609bdc.chunk.js.map",
+    "index.html": "/build/index.html",
+    "precache-manifest.10bfc2db592c583bd191284309ba4af8.js": "/build/precache-manifest.10bfc2db592c583bd191284309ba4af8.js",
+    "service-worker.js": "/build/service-worker.js",
+    "static/css/main.9755adc9.chunk.css.map": "/build/static/css/main.9755adc9.chunk.css.map",
+    "static/media/IMG_2390.JPG": "/build/static/media/IMG_2390.8134ee15.JPG",
+    "static/media/IMG_2392.JPG": "/build/static/media/IMG_2392.0a6092e8.JPG",
+    "static/media/bnw.png": "/build/static/media/bnw.9432d61c.png"
+  }
+}

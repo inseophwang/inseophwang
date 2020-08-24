@@ -1,0 +1,120 @@
+html, body {
+  margin: 0;
+  font-family: Helvetica, Arial;
+  font-weight: 100; }
+  html .appWrapper .icon, body .appWrapper .icon {
+    z-index: 1;
+    text-align: right;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute; }
+    html .appWrapper .icon .images, body .appWrapper .icon .images {
+      border-radius: 50px;
+      width: 80px;
+      margin: 1.5%;
+      border: 2px solid #ff0066; }
+  html .home-page, body .home-page {
+    padding: 150px 0; }
+    html .home-page .title, body .home-page .title {
+      text-align: center;
+      padding-top: 3%; }
+    html .home-page .content-wrapper, body .home-page .content-wrapper {
+      font-weight: 100;
+      letter-spacing: 1.5px;
+      text-align: center;
+      padding: 3% 0; }
+      @media screen and (max-width: 640px) {
+        html .home-page .content-wrapper, body .home-page .content-wrapper {
+          overflow: hidden; } }
+      html .home-page .content-wrapper a, body .home-page .content-wrapper a {
+        text-decoration: none; }
+      html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {
+        display: inline-block;
+        width: 68px;
+        color: #fff;
+        height: 100%;
+        text-align: left;
+        margin: 0 0.5%; }
+        @media screen and (max-width: 640px) {
+          html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {
+            display: block;
+            width: 100%; } }
+        html .home-page .content-wrapper .content-subj .title, body .home-page .content-wrapper .content-subj .title {
+          font-family: Helvetica, Arial;
+          padding: 0 5px;
+          writing-mode: tb-rl;
+          text-orientation: upright;
+          letter-spacing: 8px;
+          margin: 9px 0; }
+          @media screen and (max-width: 640px) {
+            html .home-page .content-wrapper .content-subj .title, body .home-page .content-wrapper .content-subj .title {
+              text-orientation: initial;
+              writing-mode: horizontal-tb;
+              text-align: left; } }
+      html .home-page .content-wrapper .tab-about, body .home-page .content-wrapper .tab-about {
+        background: #d5c6b0;
+        border: 5px solid #d5c6b0; }
+        html .home-page .content-wrapper .tab-about:hover, body .home-page .content-wrapper .tab-about:hover {
+          background: #fff;
+          border: 5px solid #d5c6b0;
+          color: #000; }
+      html .home-page .content-wrapper .tab-work, body .home-page .content-wrapper .tab-work {
+        background: #e7baa0;
+        border: 5px solid #e7baa0; }
+        html .home-page .content-wrapper .tab-work:hover, body .home-page .content-wrapper .tab-work:hover {
+          background: #fff;
+          border: 5px solid #e7baa0;
+          color: #000; }
+      html .home-page .content-wrapper .tab-runs, body .home-page .content-wrapper .tab-runs {
+        background: #96443a;
+        border: 5px solid #96443a; }
+        html .home-page .content-wrapper .tab-runs:hover, body .home-page .content-wrapper .tab-runs:hover {
+          background: #fff;
+          border: 5px solid #96443a;
+          color: #000; }
+      html .home-page .content-wrapper .tab-contact, body .home-page .content-wrapper .tab-contact {
+        background: #520303;
+        border: 5px solid #520303; }
+        html .home-page .content-wrapper .tab-contact:hover, body .home-page .content-wrapper .tab-contact:hover {
+          background: #fff;
+          border: 5px solid #520303;
+          color: #000; }
+  html .fixed-left, body .fixed-left {
+    background: #520303;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 300px;
+    z-index: 1; }
+    html .fixed-left p, body .fixed-left p {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+      color: #fff;
+      font-size: -webkit-xxx-large; }
+
+@media screen and (max-width: 640px) {
+  html .appWrapper .icon .images, body .appWrapper .icon .images {
+    width: 50px;
+    margin: 3%; }
+  html .home-page, body .home-page {
+    padding: 100px 0; }
+    html .home-page .content-wrapper, body .home-page .content-wrapper {
+      padding-top: 50px; }
+      html .home-page .content-wrapper .content-subj, body .home-page .content-wrapper .content-subj {
+        width: 95%;
+        margin: 0 auto;
+        height: 100px;
+        margin-bottom: 5px; }
+  html .fixed-left, body .fixed-left {
+    height: 120px;
+    width: 100%;
+    bottom: 0;
+    top: initial; }
+    html .fixed-left p, body .fixed-left p {
+      font-size: xx-large; } }
+
+/*# sourceMappingURL=styles.css.map */

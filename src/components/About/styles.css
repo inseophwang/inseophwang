@@ -1,0 +1,38 @@
+.aboutWrapper .fixed-left {
+  background: #d5c6b0; 
+}
+
+.about-content {
+	/* background: url('../../img/bnw.png'); */
+    background-position: center center;
+	margin-left: 300px;
+	height: 100vh;
+    background-size: cover;
+}
+
+.about-content p {
+	margin: 0;
+}
+
+.about-content .intro {
+	background-color: #fff;
+	opacity: 0.87;
+	padding: 2%;
+	border-radius: 5px;
+	position: absolute;
+	margin: 3%;
+	font-size: 12px;
+	width: 35%;
+	bottom: 0;
+}
+
+@media screen and (max-width: 640px) {
+	.about-content {
+		margin-left: initial;
+	}
+
+	.about-content .intro {
+		bottom: 120px;
+		width: 90%;
+	}
+}

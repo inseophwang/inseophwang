@@ -1,0 +1,79 @@
+.workWrapper .fixed-left {
+  background: #e7baa0; 
+}
+.work-content {
+	margin-left: 300px;
+    margin-top: 150px;
+}
+
+.work-content .project-wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.work-content .project-wrapper 
+.project-section {
+	margin-bottom: 65px;
+}
+
+.work-content .project-wrapper 
+.project-section .project-name a {
+	font-weight: 600;
+	color: #520303;
+	 text-decoration: none;
+}
+
+.work-content .project-wrapper 
+.project-section .project-name a:hover {
+	color: #e7baa0;
+}
+
+
+
+.work-content .project-wrapper 
+.project-section .project-name 
+img.github-icon {
+	vertical-align: text-bottom;
+	margin-right: 10px;
+	width: 20px;
+}
+
+
+.work-content .project-wrapper 
+.project-section img.project {
+	width: 500px;
+	border: 1px solid #e7baa0;
+}
+
+.work-content .project-wrapper 
+.project-section .framework {
+	font-size: 13px;
+	margin: 5px 0;
+}
+
+.work-content .project-wrapper 
+.project-section img.project:hover {
+	opacity: 0.5;
+}
+
+@media screen and (max-width: 960px) {
+	.work-content .project-wrapper 
+	.project-section img.project {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.work-content {
+		margin-left: initial;
+	}
+
+	.work-content .project-wrapper {
+		margin-bottom: 200px;
+	}
+
+	.work-content .project-wrapper 
+	.project-section img.project {
+		width: 100%;
+	}
+}
