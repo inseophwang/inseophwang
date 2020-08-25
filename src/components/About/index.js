@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import { Animated } from "react-animated-css";
 import { Container } from '../Home'
-// import AboutBackground from '../../images/bnw.png';
+import AboutBackground from '../../images/bnw.png';
 
 
 
 const Background = styled.div`
+background-image: url(${AboutBackground});
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
