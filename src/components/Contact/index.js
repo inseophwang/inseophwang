@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import { FaEnvelope, FaLinkedinIn, FaInstagram, FaTwitter } from 'react-icons/fa';
+// import { FaEnvelope, FaLinkedinIn, FaInstagram, FaTwitter } from 'react-icons/fa';
 import { Container } from '../Home'
 import { BannerText } from '../Work'
 import ContactBackground from '../../images/IMG_2392.JPG';

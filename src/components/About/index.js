@@ -59,7 +59,7 @@ class About extends Component {
             <Copy>Hi. My name is In Seop - </Copy>
             <Copy>I am a full-stack web developer currently in Omaha, Nebraska .</Copy>
             <Copy>I am looking to transition from the military to a career in tech.</Copy>
-            <Copy>In my freetime, I like to spend time with my wife and travel to new places</Copy>
+            <Copy>In my freetime I like to garden, spend time with my wife, and travel to new places</Copy>
             <br/>
             <Copy>Cheers, </Copy>
           </Animated>
